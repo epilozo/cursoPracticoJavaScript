@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descuento por producto con Cupones</title>
+    <link rel="stylesheet" href="./main.css">
+
+</head>
+<body>
+    <header>
+        Calculo de descuento de Productos con cupones ingresados por los usuarios
+    </header>
+    <section>
+        <form action="">
+            <label for="precioProducto">
+                Ingresa precio Original :
+            </label>
+            <input type="number" id="precioProducto">
+
+            <label for="descuentoProducto">
+                Ingresa descuento a aplicar :
+            </label>
+            <input type="text" id="descuentoProducto">
+
+            <button type="button" onclick="calculaPrecioConDescuento()">
+                    Calcula Precio Nuevo            
+            </button>
+            <p id="presentaResultado"></p>
+        </form>
+    </section>
+    <script src="./descuento.js"></script>
+</body>
+</html>

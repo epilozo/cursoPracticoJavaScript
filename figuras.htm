@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figuras geometricas</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <header>
+        FIGURAS GEOMETRICAS
+         <p>
+            Calcula el area y perimetro de cuadrados y circulos
+        </p>
+     </header>
+     <section>
+         <h2>
+             Datos del Cuadrado
+         </h2>
+         <form action="">
+             <label for="idLadoCuadrado">
+                 Ingrese el lado del cuadrado
+             </label>
+             <input id="idLadoCuadrado" type="number" >
+             <button type="button" onclick="calculaPerimetroCuadrado()">
+                Calcula Perimetro
+             </button>
+
+             <button type="button" onclick="calculaAreaCuadrado()">
+                Calcula Area
+             </button>
+             <p id="mostrarResultado"></p>
+         </form>
+     </section>
+    <script src="./figuras.js"></script>
+</body>
+</html>
